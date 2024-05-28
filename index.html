@@ -20,15 +20,46 @@
     <section class="one">
       <header>
         <img src="/images/logo-main-white.png" alt="" />
-        <ul>
-          <li>ABOUT</li>
-          <li>PATHWAYS</li>
+        <ul class="abt">
+          <div class="hide">
+            <li>ABOUT</li>
+            <div class="dropdown-content">
+              <a href="#">Our Story & How we work</a>
+              <a href="#">Methodology & Success</a>
+              <a href="#">Ubunifu kids</a>
+              <a href="#">Center for AI Research & <br />Development</a>
+              <a href="#">Career</a>
+            </div>
+          </div>
+          <div class="hide">
+            <li>PATHWAYS</li>
+            <div class="dropdown-content">
+              <a href="#">Software Development</a>
+              <a href="#">Machine Learning (AI)</a>
+              <a href="#">Data Science</a>
+              <a href="#">Blockchains</a>
+              <a href="#">Robotics</a>
+            </div>
+          </div>
+
           <li>VIRTUAL LEARNING</li>
           <li>UPDATES</li>
           <li>CONTACT</li>
           <li><i class="fa-solid fa-bars"></i></li>
         </ul>
         <button>APPLY <i class="fa-solid fa-play"></i></button>
+        <div class="header_sub">
+          <img src="/images/logo-main-black.png" alt="" />
+          <ul>
+            <li><a href="">about</a></li>
+            <li><a href="">pathways</a></li>
+            <li><a href="">virtual learning</a></li>
+            <li><a href="">updates</a></li>
+            <li><a href="">contact</a></li>
+            <li><i class="fa-solid fa-bars"></i></li>
+          </ul>
+          <button>APPLY <i class="fa-solid fa-play"></i></button>
+        </div>
       </header>
       <div class="container">
         <h1>
@@ -132,22 +163,34 @@
       <h5>our programs</h5>
       <h3>Pathways</h3>
       <div class="pathways">
-        <div>
-          <img src="/images/main10.jpg" alt="" />
+        <div class="parent">
+          <div class="another">
+            <div class="test">
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
           <div class="small">
             <h4>software development</h4>
             <p>Web Dev, Mobile App Dev, Full Stack Dev etc</p>
           </div>
         </div>
-        <div>
-          <img src="/images/main4.jpg" alt="" />
+        <div class="parent">
+          <div class="another_1">
+            <div class="test">
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
           <div class="small">
             <h4>machine learning (ai)</h4>
             <p>Machine Learning & Deep Learning</p>
           </div>
         </div>
-        <div>
-          <img src="/images/main11.jpg" alt="" />
+        <div class="parent">
+          <div class="another_2">
+            <div class="test">
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
           <div class="small">
             <h4>data science</h4>
             <p>Data Science</p>
@@ -155,22 +198,34 @@
         </div>
       </div>
       <div class="pathways">
-        <div>
-          <img src="/images/blockchain.jpg" alt="" />
+        <div class="parent">
+          <div class="another_3">
+            <div class="test">
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
           <div class="small">
             <h4>blockchain</h4>
             <p>Blockchain</p>
           </div>
         </div>
-        <div>
-          <img src="/images/robotics.jpg" alt="" />
+        <div class="parent">
+          <div class="another_4">
+            <div class="test">
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
           <div class="small">
             <h4>robotics</h4>
             <p>Robotics</p>
           </div>
         </div>
-        <div>
-          <img src="/images/main1.jpg" alt="" />
+        <div class="parent">
+          <div class="another_5">
+            <div class="test">
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
           <div class="small">
             <h4>startuo school</h4>
             <p>Learn how to start & run a company</p>
@@ -224,6 +279,40 @@
     <section class="six">
       <h5>most successful startup from ubunifu</h5>
       <h3>Student's Success</h3>
+      <div class="youtube">
+        <div class="iframe">
+          <iframe
+            width="555"
+            height="312"
+            src="https://www.youtube.com/embed/CEMZ0Pk5sUY"
+            title=""
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <h4>ask mama</h4>
+          <p>Developer: Myra Anubi</p>
+        </div>
+        <div class="iframe">
+          <iframe
+            width="555"
+            height="312"
+            src="https://www.youtube.com/embed/IwhhjIyKejI"
+            title="The Bantering Billboard dentsu Kenya  | Safaricom PLC Case Study"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <h4>rydler</h4>
+          <p>Developer: Ted Opiyo</p>
+        </div>
+      </div>
+    </section>
+    <section class="seven">
+      <i class="fa-regular fa-circle-play"></i>
+      <p>If you know how to read, you can learn how <br />to code</p>
     </section>
     <section class="eight">
       <div class="software_main">
@@ -292,38 +381,46 @@
       </div>
     </section>
     <footer>
-      <div>
-        <div>
+      <div class="footer_1">
+        <div class="premium">
           <img src="/images/logo-main-white.png" alt="" />
           <p>
-            We are a Premium school of Software Engineering, Artificial
-            Intelligence, Data Science, Robotics & Blockchain
+            We are a Premium school of Software <br />Engineering, Artificial
+            Intelligence, Data <br />Science, Robotics & Blockchain
           </p>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-          <i class="fa-brands fa-square-snapchat"></i>
+          <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-square-snapchat"></i>
+          </div>
         </div>
-        <div>
+        <div class="info">
           <h4>information</h4>
-          <a href="">Students' Portal</a>
-          <a href="">Virtual Learning</a>
-          <a href="">Ubunifu Kids</a>
-          <a href="">Career</a>
-          <a href="">Referral Program</a>
+          <ul>
+            <li>Students' Portal</li>
+            <li>Virtual Learning</li>
+            <li>Ubunifu Kids</li>
+            <li>Career</li>
+            <li>Referral Program</li>
+          </ul>
         </div>
-        <div>
+        <div class="contact_info">
           <h4>contact info</h4>
-          <p>Ubunifu College</p>
-          <p>Nairobi, Kenya</p>
-          <p>Email: admissions@ubunifucollege.com</p>
-          <p>Phone: (+254)727 634 101</p>
-          <a href="">view direction</a>
+          <div>
+            <p>Ubunifu College</p>
+            <p>Nairobi, Kenya</p>
+          </div>
+          <div>
+            <p>Email: <span>admissions@ubunifucollege.com</span></p>
+            <p>Phone: (+254)727 634 101</p>
+            <a href="">view direction</a>
+          </div>
         </div>
-        <div>instagram portfolio</div>
+        <div class="portfolio"><h4>instagram portfolio</h4></div>
       </div>
-      <div>
+      <div class="footer_2">
         <p>© 2024 Ubunifu College. All rights reserved.</p>
       </div>
     </footer>

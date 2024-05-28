@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pathways{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .one{
+            width: 200px;
+            height: 180px;
+            background: url(/images/main10.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .parent{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .test{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 0, 0, 0.5);
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            transition: 0.1s ease-in-out;
+            transform: translateY(100%);
+        }
+
+        .one:hover .test{
+            display: flex;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="pathways">
+        <div class="one">
+            <div class="parent">
+              <div class="test">icon</div>
+            </div>
+            <div class="small">
+              <h4>software development</h4>
+              <p>Web Dev, Mobile App Dev, Full Stack Dev etc</p>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
